@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山茶花手机壳 - 可爱高颜值手机壳</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        /* 导航栏 - 粉色主题 */
+        nav {
+            background: #f8a5c2;
+            color: white;
+            padding: 18px 30px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            color: #ff5e8f;
+        }
+
+        /* 首页大图（替换成你的照片） */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),
+                        url('https://p3-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/2b0b53520d784fe2ba657375d7c0bd83.JPG~tplv-a9rns2rl98-24:720:720.jpg?lk3s=8e244e95&rcl=2026042820172245958B50EB293C6CC46F&rrcfp=8a172a1a&x-expires=1777983443&x-signature=Uo6fStcWuiIM2TK%2FkVHs0bwG2j0%3D');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            color: #ff5e8f;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            max-width: 700px;
+            color: #ff5e8f; /* 改为和标题同款显眼粉色 */
+            font-weight: 500; /* 加一点字重，更突出 */
+        }
+
+        .btn {
+            padding: 12px 30px;
+            background: #f8a5c2;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff5e8f;
+        }
+
+        /* 内容区域 */
+        .section {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .section h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #ff5e8f;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #fff5f8;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 15px rgba(248,165,194,0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+            color: #ff5e8f;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* 底部 */
+        footer {
+            background: #f8a5c2;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 导航栏（店名改为山茶花手机壳） -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">山茶花手机壳</div>
+        <div class="nav-links">
+            <a href="#home">首页</a>
+            <a href="#product">产品</a>
+            <a href="#about">关于</a>
+            <a href="#contact">联系我们</a>
+        </div>
+    </div>
+</nav>
+
+<!-- 首页大图（标语颜色改为同款粉色） -->
+<section class="hero" id="home">
+    <h1>可爱高颜值手机壳</h1>
+    <p>专为热爱生活的你设计，温柔、精致、独一无二，让你的手机更出彩～</p>
+    <a href="#product" class="btn">查看产品</a>
+</section>
+
+<!-- 产品展示 -->
+<section class="section" id="product">
+    <h2>热门产品</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>可爱卡通款</h3>
+            <p>超萌卡通图案，软萌手感，少女心必备。</p>
+        </div>
+        <div class="card">
+            <h3>简约清新款</h3>
+            <p>淡雅配色，简约高级，日常百搭不撞款。</p>
+        </div>
+        <div class="card">
+            <h3>防摔保护款</h3>
+            <p>加厚防护，耐用抗摔，颜值与实用并存。</p>
+        </div>
+        <div class="card">
+            <h3>透明个性款</h3>
+            <p>高透材质，可放照片，专属你的定制款。</p>
+        </div>
+        <div class="card">
+            <h3>花朵文艺款</h3>
+            <p>温柔花卉设计，文艺清新，气质满分。</p>
+        </div>
+        <div class="card">
+            <h3>支持全机型</h3>
+            <p>iPhone / 华为 / 小米 / OPPO / vivo 全型号可做。</p>
+        </div>
+    </div>
+</section>
+
+<!-- 关于我们（店名同步修改） -->
+<section class="section" id="about">
+    <h2>关于小店</h2>
+    <div style="text-align:center; font-size:18px; line-height:1.8; max-width:800px; margin:auto; color:#555;">
+        山茶花手机壳，专注可爱、温柔、高颜值手机壳。<br>
+        用心做好每一款设计，让每一台手机都拥有属于自己的小美好。<br>
+        支持来图定制，欢迎选购～
+    </div>
+</section>
+
+<!-- 联系我们 -->
+<section class="section" id="contact">
+    <h2>联系我们</h2>
+    <div style="text-align:center; font-size:18px; color:#555;">
+        <p>📩 邮箱：camellia080816@163.com</p>
+        <p>📞 电话：18126855619</p>
+        <p style="margin-top:10px;">营业时间：9:00 - 22:00</p>
+    </div>
+</section>
+
+<!-- 底部（店名同步修改，年份2026） -->
+<footer>
+    <p>© 2026 山茶花手机壳 | 温柔可爱 · 精致美好</p>
+</footer>
+
+</body>
+</html>
